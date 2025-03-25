@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Hecho en Casa - Contáctanos</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contactanos.html">Contáctanos</a>
+    </nav>
+
+    <div class="container">
+        <h1>Contáctanos</h1>
+        
+        <h2>Por favor contáctenos usando el siguiente formulario</h2>
+        <form action="#" method="post">
+            
+            <form action="/action_page.php">
+                <label for="fname">Nombre</label><br>
+                <input type="text" id="fname" name="fname" value="Escribe tu nombre"><br>    
+                <label for="lname">Teléfono</label><br>
+                <input type="text" id="lname" name="lname" value="Escribe tu numero de teléfono"><br><br>
+              </form> 
+        
+            <label for="solicitud">Solicitud:</label>
+            <form action="/action_page.php" style="display: flex; gap: 20px;">
+                <div>
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle1">Precios</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                  <label for="vehicle2">Preguntas sobre Productos</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                  <label for="vehicle3">Otro</label>
+                </div>
+              
+              </form>
+              <div>
+                <span></span>
+              </div>
+            <div>
+            <label for="detalle">Detalle de la solicitud</label>
+            <form action="/action_page.php">
+            <textarea id="detalle" name="detalle" rows="7" required>Escribe aquí el detalle de tu solicitud</textarea>
+            </div>
+            <label>
+                <input type="checkbox" name="terminos" required> Acepto los términos y condiciones
+            </label>
+            <div>
+            <button type="submit">Enviar solicitud</button>
+        </div>
+        </form>
+        
+        <h2>Información de contacto</h2>
+        <div class="contact-info">
+            <p><b>Teléfono:</b> 3017635362</p>
+            <p><b>Dirección:</b> Calle 74</p>
+        </div>
+        
+        <div class="map-container">
+            <img src= "imagenes/dondevivo.png" alt="Pudin de chocolate" class="gallery-img" width="500" height="500">
+        </div>
+    </div>
+</body>
+</html>
